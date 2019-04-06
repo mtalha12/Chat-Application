@@ -34,7 +34,7 @@ class SignUpForm extends Component {
         this.setState({
             [event.target.name]: event.target.value,
         })
-      }
+      } 
     checkInput(){
         return!(this.state.firstName.length && this.state.lastName.length)
       }
